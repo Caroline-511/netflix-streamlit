@@ -16,8 +16,8 @@ st.markdown('TV-PG --> Parental guideline suggested')
 
 @st.cache(persist=True)
 def load():
-    df=pd.read_csv('netf.csv')
-    df1=df.drop_duplicates(subset='title',keep='first',inplace=True)
+    df=pd.read_csv('netf.csv') #read data from csv file
+    df1=df.drop_duplicates(subset='title',keep='first',inplace=True) #drop duplicate entries if any
     return df
 df=load()
 
