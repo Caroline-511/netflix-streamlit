@@ -5,7 +5,7 @@ Streamlit is an open source app framework for Machine Learning and Data Science 
 It supports hot-reloading so that your app can update live as soon as you edit and save the file.
  
 To install streamlit, type the following in your command prompt <br/>
- $pip install streamlit <br/>
+<b> $pip install streamlit </b> <br/>
  
 Datasets used for this project can also be found in data.world<br/>
 
@@ -17,7 +17,7 @@ This project is mainly based on categorizing Netflix shows based on given condit
 -> Top shows based on rating category ( PG-13, R, TV-MA ...etc) <br/>
 
 To run the application, open command prompt in the directory in which your project is saved <br/>
- $streamlit run project_name.py <br/>
+ <b>$streamlit run project_name.py </b><br/>
 In the next few seconds the sample app will open in a new tab in your default browser. <br/>
 
 Before running this app make sure you have pandas, numpy, streamlit and plotly.express libraries pre-installed. 
