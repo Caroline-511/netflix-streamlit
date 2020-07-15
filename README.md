@@ -25,3 +25,5 @@ If not installed you can install by typing the following in your command prompt 
  $pip install pandas <br/>
  $pip install numpy <br/>
  $pip install plotly
+
+You can view the project here -- https://secret-dusk-70149.herokuapp.com/
